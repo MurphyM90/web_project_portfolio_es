@@ -1,0 +1,233 @@
+.main {
+  width: min(calc(100% - clamp(40px, 10.4vw, 80px)), 1200px);
+  min-height: 1015px;
+  margin: 100px auto;
+}
+
+.main__section-title {
+  margin: 0 0 50px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.main__section-title--skills span {
+  display: inline;
+}
+
+.main__skills {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+
+.main__skills-list {
+  display: flex;
+  flex: none;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 100px;
+  padding: 0;
+  list-style: none;
+}
+
+.main__skills-item img {
+  display: block;
+  width: 50px;
+  height: auto;
+}
+
+.main__project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr));
+  gap: 20px;
+}
+
+.main__project {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: #1c1c1c;
+  min-height: 670px;
+}
+
+.main__project-preview {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.main__project-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main__project-veil {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    to bottom,
+    transparent 45%,
+    rgb(0 0 0 / 50%) 100%
+  );
+  pointer-events: none;
+}
+
+.main__project-technologies {
+  position: absolute;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  left: 12px;
+  bottom: 10px;
+  gap: 10px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main__project-technology img {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.main__project-details {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.main__project-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+
+.main__project-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 0 30px;
+}
+
+.main__project-achievement {
+  display: block;
+}
+
+.main__project-links {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* entre los dos enlaces */
+  margin-top: auto;
+}
+
+.main__project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px; /* entre el SVG y su texto */
+  transition: opacity 0.2s ease;
+}
+
+.main__project-link:hover,
+.main__project-link:focus-visible {
+  opacity: 0.5;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main {
+    min-height: 0;
+    margin: 80px auto 0;
+  }
+
+  .main__section-title {
+    margin-bottom: 40px;
+  }
+
+  .main__skills-list {
+    margin-bottom: 80px;
+  }
+
+  .main__project {
+    min-height: 0;
+  }
+
+  .main__project-details {
+    flex-grow: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    min-height: 0;
+    margin: 60px auto 0;
+  }
+
+  .main__section-title {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+
+  .main__skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    column-gap: 53px;
+    row-gap: 30px;
+    justify-content: start;
+    margin-bottom: 60px;
+  }
+
+  .main__skills-item img {
+    width: clamp(30px, calc(4.47vw + 15.7px), 50px);
+    height: auto;
+  }
+
+  .main__project-list {
+    gap: 10px;
+  }
+
+  .main__project {
+    min-height: 0;
+  }
+
+  .main__project-technologies {
+    gap: 5px;
+  }
+
+  .main__project-technology img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .main__project-details {
+    flex-grow: 0;
+    margin: 20px;
+  }
+
+  .main__project-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .main__project-description {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .main__project-links {
+    margin-top: 0;
+  }
+}

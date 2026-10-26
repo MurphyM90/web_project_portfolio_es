@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="es" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <!-- Enlaces para cargar Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+    <link
+      href="https://googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Primero se carga el normalize para limpiar los estilos por defecto -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+
+    <!-- Después cargas tus propios estilos para que puedan heredar correctamente -->
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__content">
+        <h1 class="header__title">
+          <span>Mariana</span>
+          <span>Hernández</span>
+        </h1>
+        <p class="header__subtitle">
+          <span class="header__subtitle-role"
+            >Desarrolladora Full-Stack Junior</span
+          >
+          <span class="header__subtitle-divider" aria-hidden="true">|</span>
+          <span class="header__subtitle-technologies"
+            >TypeScript, React, Node.js</span
+          >
+        </p>
+        <p class="header__description">
+          Desarrolladora web junior con experiencia práctica creando interfaces
+          limpias y responsivas con HTML, CSS, JavaScript y React, así como
+          implementando lógica básica de back-end. Ha trabajado en proyectos
+          formativos que siguen procesos reales de desarrollo, usando Git,
+          GitHub y Figma. Disfruta colaborar en equipo, mantener un código claro
+          y resolver problemas de forma estructurada. Motivada por seguir
+          aprendiendo, asumir nuevos retos y aprovechar oportunidades para
+          crecer como desarrolladora.
+        </p>
+
+        <div class="header__links">
+          <a
+            class="header__link"
+            href="assets/documents/CV_Jonathan_Paul_Medina_Gamino.pdf"
+            download
+            >Descargar CV</a
+          >
+          <a
+            class="header__link"
+            href="https://github.com/MurphyM90"
+            target="_blank"
+            rel="noopener"
+            >Enlace a GitHub</a
+          >
+          <a
+            class="header__link"
+            href="mailto:murphy.m90.jw@gmail.com"
+            target="_blank"
+            rel="noopener"
+            >Hablemos</a
+          >
+        </div>
+      </div>
+
+      <img
+        class="header__image"
+        src="assets/images/Rectangle 1.jpg"
+        alt="Foto de perfil de Mariana Hernández"
+      />
+    </header>
+
+    <main class="main">
+      <section class="main__skills">
+        <h2 class="main__section-title main__section-title--skills">
+          Habilidades <span>y herramientas</span>
+        </h2>
+        <ul class="main__skills-list">
+          <li class="main__skills-item">
+            <img src="assets/icons/html5.svg" alt="HTML5" />
+          </li>
+          <li class="main__skills-item">
+            <img src="assets/icons/css3.svg" alt="CSS3" />
+          </li>
+          <li class="main__skills-item">
+            <img src="assets/icons/javascript.svg" alt="JavaScript" />
+          </li>
+          <li class="main__skills-item">
+            <img src="assets/icons/git.svg" alt="Git" />
+          </li>
+          <li class="main__skills-item">
+            <img src="assets/icons/github.svg" alt="GitHub" />
+          </li>
+          <li class="main__skills-item">
+            <img src="assets/icons/chatgpt.svg" alt="ChatGPT" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="main__projects">
+        <h2 class="main__section-title">Proyectos destacados</h2>
+        <div class="main__project-list">
+          <article class="main__project">
+            <div class="main__project-preview">
+              <img
+                class="main__project-image"
+                src="assets/images/cafeteria.png"
+                alt="Vista previa del sitio web de una cafetería"
+              />
+
+              <div class="main__project-veil" aria-hidden="true"></div>
+
+              <ul class="main__project-technologies">
+                <li class="main__project-technology">
+                  <img src="assets/icons/html5.svg" alt="HTML5" />
+                </li>
+                <li class="main__project-technology">
+                  <img src="assets/icons/css3.svg" alt="CSS3" />
+                </li>
+              </ul>
+            </div>
+
+            <div class="main__project-details">
+              <h3 class="main__project-title">Página web de una cafetería</h3>
+              <p class="main__project-description">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional.
+                <span class="main__project-achievement">
+                  Logro: Implementé desde cero el diseño completo de la página,
+                  organicé el proyecto con buenas prácticas y publiqué la
+                  versión final utilizando GitHub Pages.
+                </span>
+              </p>
+
+              <div class="main__project-links">
+                <a
+                  class="main__project-link"
+                  href="https://drive.google.com/drive/folders/1u9W8X1zTa8OU8gEa-EbL80COBbvGlE8C?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    src="assets/icons/demo_en_vivo.svg"
+                    alt="Demo en vivo de la cafetería"
+                  />
+                </a>
+
+                <a
+                  class="main__project-link main__project-link--github"
+                  href="https://github.com/MurphyM90/web_project_coffeeshop_es"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    src="assets/icons/github_link.svg"
+                    alt="Repositorio de GitHub de la cafetería"
+                  />
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="main__project">
+            <div class="main__project-preview">
+              <img
+                class="main__project-image"
+                src="assets/images/mi_proyecto.png"
+                alt="Imagen de vista previa de mi proyecto"
+              />
+
+              <div class="main__project-veil" aria-hidden="true"></div>
+
+              <ul class="main__project-technologies">
+                <li class="main__project-technology">
+                  <img src="assets/icons/javascript.svg" alt="JavaScript" />
+                </li>
+                <li class="main__project-technology">
+                  <img src="assets/icons/react.svg" alt="React" />
+                </li>
+              </ul>
+            </div>
+
+            <div class="main__project-details">
+              <h3 class="main__project-title">Mi proyecto</h3>
+              <p class="main__project-description">Descripción del proyecto</p>
+
+              <div class="main__project-links">
+                <a
+                  class="main__project-link"
+                  href="https://drive.google.com/drive/folders/1u9W8X1zTa8OU8gEa-EbL80COBbvGlE8C?usp=sharing"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    src="assets/icons/demo_en_vivo.svg"
+                    alt="Demo en vivo de Mi proyecto"
+                  />
+                </a>
+
+                <a
+                  class="main__project-link main__project-link--github"
+                  href="https://github.com/MurphyM90/web_project_portfolio_es"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    src="assets/icons/github_link.svg"
+                    alt="Repositorio de GitHub de Mi proyecto"
+                  />
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="contacts">
+        <h2 class="contacts__title">Contacto</h2>
+        <a class="contacts__email" href="mailto:student@tripleten.com">
+          student@tripleten.com
+        </a>
+
+        <!-- Lista desordenada para las redes sociales -->
+        <ul class="contacts__social-list">
+          <li class="contacts__social-item">
+            <a
+              class="contacts__social-link"
+              href="https://www.linkedin.com/in/jonathan-paul-medina-gami%C3%B1o-370a92207/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="contacts__social-icon"
+                src="assets/icons/linkedin.svg"
+                alt="LinkedIn"
+              />
+            </a>
+          </li>
+          <li class="contacts__social-item">
+            <a
+              class="contacts__social-link"
+              href="https://www.facebook.com/jonathan.medigam/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="contacts__social-icon"
+                src="assets/icons/facebook.svg"
+                alt="Facebook"
+              />
+            </a>
+          </li>
+          <li class="contacts__social-item">
+            <a
+              class="contacts__social-link"
+              href="https://www.instagram.com/somniator_wolf/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="contacts__social-icon"
+                src="assets/icons/instagram.svg"
+                alt="Instagram"
+              />
+            </a>
+          </li>
+          <li class="contacts__social-item">
+            <a
+              class="contacts__social-link"
+              href="https://x.com"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="contacts__social-icon"
+                src="assets/icons/x.svg"
+                alt="X (Twitter)"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
