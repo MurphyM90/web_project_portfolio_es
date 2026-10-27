@@ -14,7 +14,7 @@ Proyecto de portafolio web del Sprint 4. Presenta un perfil profesional, habilid
 - **Hablemos:** abre un nuevo mensaje de correo dirigido a [murphy.m90.jw@gmail.com](mailto:murphy.m90.jw@gmail.com).
 - **Habilidades y herramientas:** muestra iconos de HTML5, CSS3, JavaScript, Git, GitHub y ChatGPT.
 - **Proyectos destacados:** presenta una vista previa, tecnologías utilizadas, descripción y enlaces para cada proyecto.
-- **Demo en vivo:** los dos botones abren actualmente la misma [carpeta compartida de Google Drive](https://drive.google.com/drive/folders/1u9W8X1zTa8OU8gEa-EbL80COBbvGlE8C?usp=sharing).
+- **Demo en vivo:** la tarjeta de la cafetería abre el [proyecto publicado en GitHub Pages](https://murphym90.github.io/web_project_coffeeshop_es/); la tarjeta “Mi proyecto” abre este [portafolio publicado](https://murphym90.github.io/web_project_portfolio_es/).
 - **GitHub de los proyectos:** la tarjeta de la cafetería enlaza a su [repositorio](https://github.com/MurphyM90/web_project_coffeeshop_es); la tarjeta “Mi proyecto” enlaza al [repositorio de este portafolio](https://github.com/MurphyM90/web_project_portfolio_es).
 - **Contacto:** el correo [student@tripleten.com](mailto:student@tripleten.com) abre el cliente de correo. Los iconos sociales enlazan a [LinkedIn](https://www.linkedin.com/in/jonathan-paul-medina-gami%C3%B1o-370a92207/), [Facebook](https://www.facebook.com/jonathan.medigam/), [Instagram](https://www.instagram.com/somniator_wolf/) y [X](https://x.com).
 - **Estados interactivos:** los enlaces muestran un cambio de opacidad al pasar el cursor o recibir foco con el teclado.

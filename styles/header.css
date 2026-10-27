@@ -162,6 +162,13 @@
 
 @media (max-width: 767px) {
   /* estilos móviles */
+  .header::before {
+    right: auto;
+    left: 50%;
+    width: 100vw;
+    transform: translateX(-50%);
+  }
+
   .header__subtitle-divider {
     display: none;
   }

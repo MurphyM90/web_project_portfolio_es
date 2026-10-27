@@ -3,6 +3,7 @@
   isolation: isolate;
   display: flex;
   justify-content: center;
+  overflow-x: clip;
 }
 
 .footer::before {
